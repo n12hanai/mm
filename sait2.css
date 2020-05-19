@@ -63,14 +63,25 @@ nav b:hover{
     border-bottom:2px solid wheat;
 }
 
+h1{
+    text-align: center;
+    font-size: small;
+}
 h3{
  color: brown;
 }
 
-photo2{
-
+div.photo-box {
+    float: left;
+    padding-right: 20px;
 }
 
+.photo_flame{
+    text-align: center;
+    font-size: smaller;
+}
 
-
-
+p{
+    text-align: center;
+    font-size: smaller;
+}
