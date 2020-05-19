@@ -26,13 +26,15 @@ ul li{
 ul li a{
     display: block;
     width: 100%;
-    padding: 10px 0;
     text-decoration: none;
-    color: #ccc;
+    padding: 10px 0;
+    color:black;
     font-weight: bold;
+    line-height: 1;
+    top: 0;
 }
 ul li.current{
-    border: 3px solid #555;
+    border: 3px solid black;
 }
 ul li.current a{
     color: #555;
@@ -63,12 +65,27 @@ nav b:hover{
     border-bottom:2px solid wheat;
 }
 
+.main-visual img {
+    width: 100%;
+}
+
 h1{
-    text-align: center;
+    top: 0;
+    left: 0;
+    margin: 0;
+    color: black;
+    line-height: 1;
     font-size: small;
+    padding: 5px 10px;
 }
 h3{
- color: brown;
+    text-align: center;
+    color: brown;
+}
+
+h4{
+    text-align: center;
+    color: black;
 }
 
 div.photo-box {
