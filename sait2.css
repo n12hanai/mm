@@ -94,11 +94,64 @@ div.photo-box {
 }
 
 .photo_flame{
-    text-align: center;
-    font-size: smaller;
+   display: block;
+   justify-content: center;
+   margin: 0 auto;
+   width: 630px;
 }
+.photo_flame.item{
+   float: left;
+   width: 200px;
+   text-align: center;
+   margin-left: 15px;
+}
+.item:nth-child(2n+1){
+    margin-left: 0;
+}
+.photo_flame img{
+    width: 200px;
+    height: 200px;
+}
+.photo{
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+    width: 630px;
+ }
+ .photo.item2{
+    float: left;
+    width: 200px;
+    text-align: center;
+    margin-left: 15px;
+ }
+ .item2:nth-child(2n+1){
+     margin-left: 0;
+ }
+ .photo img{
+     width: 200px;
+     height: 200px;
+ }
 
 p{
     text-align: center;
     font-size: smaller;
+}
+
+.photo2{
+     font-size: medium;
+     width: ;
+     height: ;
+     
+}
+
+.photo3{
+    font-size: medium;
+    width: ;
+    height: ;
+}
+
+.photo4{
+    font-size: medium;
+    width: ;
+    height: ;
 }
