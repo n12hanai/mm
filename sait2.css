@@ -139,19 +139,16 @@ p{
 
 .photo2{
      font-size: medium;
-     width: ;
-     height: ;
+     text-align: left;
      
 }
 
 .photo3{
     font-size: medium;
-    width: ;
-    height: ;
+    text-align: center;
 }
 
 .photo4{
     font-size: medium;
-    width: ;
-    height: ;
+    text-align: right;
 }
