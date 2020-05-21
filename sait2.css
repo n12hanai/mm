@@ -65,6 +65,35 @@ nav b:hover{
     border-bottom:2px solid wheat;
 }
 
+a {
+    padding-top: 60px;
+}
+
+a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 46px;
+    height: 46px;
+    margin-left: -23px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    box-sizing: border-box;
+}
+a span::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    content: '';
+    width: 16px;
+    height: 16px;
+    margin: -12px 0 0 -8px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+    box-sizing: border-box;
+}
 .main-visual img {
     width: 100%;
 }
@@ -95,42 +124,21 @@ div.photo-box {
 
 .photo_flame{
    display: block;
-   justify-content: center;
-   margin: 0 auto;
-   width: 630px;
-}
-.photo_flame.item{
-   float: left;
-   width: 200px;
+   float: none;
+   padding-right: 20px;  
    text-align: center;
-   margin-left: 15px;
+   
 }
-.item:nth-child(2n+1){
-    margin-left: 0;
-}
-.photo_flame img{
-    width: 200px;
-    height: 200px;
-}
+
 .photo{
     display: block;
-    justify-content: center;
-    margin: 0 auto;
-    width: 630px;
- }
- .photo.item2{
-    float: left;
-    width: 200px;
+    float: none;
+    padding-right: 20px;
     text-align: center;
-    margin-left: 15px;
+    
+    
  }
- .item2:nth-child(2n+1){
-     margin-left: 0;
- }
- .photo img{
-     width: 200px;
-     height: 200px;
- }
+ 
 
 p{
     text-align: center;
@@ -138,17 +146,64 @@ p{
 }
 
 .photo2{
-     font-size: medium;
-     text-align: left;
-     
+    display: block;
+    float: none;
+    padding-right: 40px; 
+    padding-left: 60px;
+    padding: 0;
 }
 
-.photo3{
-    font-size: medium;
+.concept a{
+    text-align: left;
+}
+.service a{ 
     text-align: center;
 }
-
-.photo4{
-    font-size: medium;
+.floor a{
     text-align: right;
 }
+.date{
+    text-align: left;
+    bottom: auto;
+    float: left;
+    width: 30%;
+}
+.date1{
+    float: left;
+    text-align: center;
+    width: 30%;
+
+}
+.date2{
+    float: right;
+    width: 40%;
+}
+.date3{
+    text-align: left;
+    width: 30%;
+    float: left
+}
+.date4{
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+.date5{
+    float: right;
+    width: 40%;
+    text-align: left;
+}
+.date6{
+    text-align: left;
+    float: left;
+    width: 30%;
+}
+.date7{
+    float: left;
+    width: 30%;
+}
+.date8{
+    float: right;
+    width: 25%;
+}
+
