@@ -33,9 +33,7 @@ ul li a{
     line-height: 1;
     top: 0;
 }
-ul li.current{
-    border: 3px solid black;
-}
+
 ul li.current a{
     color: #555;
 }
@@ -65,37 +63,13 @@ nav b:hover{
     border-bottom:2px solid wheat;
 }
 
-a {
-    padding-top: 60px;
-}
 
-a span {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 46px;
-    height: 46px;
-    margin-left: -23px;
-    border: 1px solid #fff;
-    border-radius: 100%;
-    box-sizing: border-box;
-}
-a span::after {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    content: '';
-    width: 16px;
-    height: 16px;
-    margin: -12px 0 0 -8px;
-    border-left: 1px solid #fff;
-    border-bottom: 1px solid #fff;
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg)
-    box-sizing: border-box;
-}
 .main-visual img {
     width: 100%;
+}
+.main-visual {
+     border-width: 1px;
+     border-color: black;
 }
 
 h1{
@@ -127,6 +101,7 @@ div.photo-box {
    float: none;
    padding-right: 20px;  
    text-align: center;
+   border-top-left-radius: 10px;
    
 }
 
@@ -134,12 +109,9 @@ div.photo-box {
     display: block;
     float: none;
     padding-right: 20px;
-    text-align: center;
-    
-    
+    text-align: center;   
  }
  
-
 p{
     text-align: center;
     font-size: smaller;
@@ -172,38 +144,58 @@ p{
     float: left;
     text-align: center;
     width: 30%;
-
 }
 .date2{
     float: right;
-    width: 40%;
+    width: 30%;
+    margin-right: 10%;
+    text-align: center;
 }
 .date3{
     text-align: left;
-    width: 30%;
-    float: left
+    float: left;
+    width: 20%;
+    margin-left: 18%;
 }
 .date4{
     float: left;
-    width: 30%;
-    text-align: center;
+    width: 20%;
 }
 .date5{
     float: right;
-    width: 40%;
-    text-align: left;
+    width: 20%;
+    margin-right: 22%;
 }
 .date6{
     text-align: left;
     float: left;
-    width: 30%;
+    width: 20%;
+    margin-left: 20%;
 }
 .date7{
     float: left;
-    width: 30%;
+    width: 20%;
 }
 .date8{
     float: right;
-    width: 25%;
+    width: 20%;
+    margin-right: 20%;
+}
+
+.sample img {
+    width: 3%;
+    height: auto;
+}
+
+.btn{
+    background-color: black;
+    color: blanchedalmond;
+}
+
+.btn1{
+    background-color: black;
+    text-align: center;
+    color: cornsilk;
+    float: right;
 }
 
